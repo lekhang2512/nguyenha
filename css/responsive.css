@@ -1,0 +1,378 @@
+@charset "UTF-8";
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .header-top .top-icon a {
+    padding: 10px 0 10px 0;
+  }
+  .header-top .login a {
+    padding: 10px 0 10px 0;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px;
+  }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
+    padding: 15px;
+  }
+
+  .main .tieu-de-center h2 {
+    margin-top: 30px;
+  }
+
+  /* b├ín chß║íy */
+  .main .ban-product .san-pham .cate-new-product {
+    font-size: 12px;
+  }
+
+  .main .ban-product .san-pham h4 {
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  .main .ban-product .san-pham .xem-product {
+    margin-top: 10px;
+  }
+
+  .main .ban-product .san-pham .xem-product .gio-hang-product {
+    padding: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product .xem-them-product {
+    padding: 5px;
+  }
+
+  /* tin tß╗⌐c */
+  .main .tin-tuc .tin-tuc-product {
+    margin-bottom: 10px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
+    padding: 2px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
+    font-size: 9px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+    font-size: 8px;
+  }
+
+  .main-product .product-cate {
+    /* ph├ón trang */
+  }
+  .main-product .product-cate .pagination > li > a, .main-product .product-cate .pagination > li > span {
+    color: #747474;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .main-product .product-cate .pagination > li:first-child > a, .main-product .product-cate .pagination > li:first-child > span {
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .main-product .product-cate .pagination > li:last-child > a, .main-product .product-cate .pagination > li:last-child > span {
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .header-top .top-icon a {
+    padding: 10px 0 10px 0;
+  }
+  .header-top .login a {
+    padding: 10px 0 10px 0;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px;
+  }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
+    padding: 15px;
+  }
+
+  .main .tieu-de-center h2 {
+    margin-top: 30px;
+  }
+
+  /* b├ín chß║íy */
+  .main .ban-product .san-pham .cate-new-product {
+    font-size: 12px;
+  }
+
+  .main .ban-product .san-pham h4 {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product {
+    margin-top: 20px;
+  }
+
+  .main .ban-product .san-pham .xem-product .gio-hang-product {
+    padding: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product .xem-them-product {
+    padding: 5px;
+  }
+
+  /* tin tß╗⌐c */
+  .main .tin-tuc .tin-tuc-product {
+    margin-bottom: 10px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
+    padding: 2px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
+    font-size: 10px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+    font-size: 9px;
+    line-height: 14px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+    font-size: 8px;
+  }
+
+  .main-product .product-cate {
+    /* ph├ón trang */
+  }
+  .main-product .product-cate .pagination > li > a, .main-product .product-cate .pagination > li > span {
+    color: #747474;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .main-product .product-cate .pagination > li:first-child > a, .main-product .product-cate .pagination > li:first-child > span {
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .main-product .product-cate .pagination > li:last-child > a, .main-product .product-cate .pagination > li:last-child > span {
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .navbar-default .navbar-nav > li > a {
+    padding: 15px;
+  }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-nav > .active > a:focus, .navbar-nav > .active > a:hover {
+    padding: 15px;
+  }
+
+  .main .tieu-de-center h2 {
+    margin-top: 30px;
+  }
+
+  /* b├ín chß║íy */
+  .main .ban-product .san-pham .cate-new-product {
+    font-size: 12px;
+  }
+
+  .main .ban-product .san-pham h4 {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .main .ban-product .san-pham .xem-product {
+    margin-top: 20px;
+  }
+
+  .main .ban-product .san-pham .xem-product .gio-hang-product {
+    padding: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product .xem-them-product {
+    padding: 5px;
+  }
+
+  /* tin tß╗⌐c */
+  .main .tin-tuc .tin-tuc-product {
+    margin-bottom: 10px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
+    padding: 2px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
+    font-size: 13px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+    font-size: 12px;
+  }
+
+  .main-product .product-cate {
+    /* ph├ón trang */
+  }
+  .main-product .product-cate .pagination > li > a, .main-product .product-cate .pagination > li > span {
+    color: #747474;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .main-product .product-cate .pagination > li:first-child > a, .main-product .product-cate .pagination > li:first-child > span {
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .main-product .product-cate .pagination > li:last-child > a, .main-product .product-cate .pagination > li:last-child > span {
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-default .cart a {
+    padding-left: 0px;
+    padding-right: 600px;
+    padding-top: 20px;
+  }
+
+  .navbar-right .dropdown-menu {
+    right: 300px;
+    width: 400px;
+    left: auto;
+  }
+
+  .main .tieu-de-center h2 {
+    margin-top: 40px;
+  }
+
+  /* b├ín chß║íy */
+  .main .ban-product .san-pham .cate-new-product {
+    font-size: 12px;
+  }
+
+  .main .ban-product .san-pham h4 {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product {
+    margin-top: 20px;
+  }
+
+  .main .ban-product .san-pham .xem-product .gio-hang-product {
+    padding: 5px;
+  }
+
+  .main .ban-product .san-pham .xem-product .xem-them-product {
+    padding: 5px;
+  }
+
+  /* tin tß╗⌐c */
+  .main .tin-tuc .tin-tuc-product {
+    margin-bottom: 40px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
+    padding: 10px 10px 17px 30px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+    font-size: 16px;
+    margin-bottom: 37px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+    font-size: 16px;
+  }
+
+  .main-product .product-cate {
+    /* ph├ón trang */
+  }
+  .main-product .product-cate .pagination > li > a, .main-product .product-cate .pagination > li > span {
+    color: #747474;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0;
+  }
+  .main-product .product-cate .pagination > li:first-child > a, .main-product .product-cate .pagination > li:first-child > span {
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .main-product .product-cate .pagination > li:last-child > a, .main-product .product-cate .pagination > li:last-child > span {
+    margin-left: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .main .product-new .new-product:hover .cart-xem {
+    top: 90px;
+    right: -7px;
+  }
+
+  .main-product .product-cate .new-product:hover .cart-xem {
+    top: 90px;
+    right: -7px;
+  }
+
+  .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem {
+    top: 70px;
+    right: -13px;
+  }
+
+  .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .xem-them {
+    padding: 5px 13px;
+  }
+
+  .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .gio-hang {
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  /* tin tß╗⌐c */
+  .main .tin-tuc .tin-tuc-product {
+    margin-bottom: 40px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
+    padding: 2px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
+    font-size: 14px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+    font-size: 12px;
+  }
+
+  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
