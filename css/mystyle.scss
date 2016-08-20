@@ -12,14 +12,13 @@
 	.top-icon a:last-child{
 		padding-left: 5px;
 	}
-
 	.login a{
 		float: right;
 		color:#fff;
 		font-size: 14px;
 		display: inline-block;
 		padding: 10px 40px 10px 10px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Arimo', sans-serif;
 		i{
 			margin-right: 10px;
 		}
@@ -29,7 +28,6 @@
 	}
 }
 /* end header top */
-
 .navbar-default{
 	background-color: #fff;
 	border: 0;
@@ -44,18 +42,22 @@
 	.navbar-nav>li>a{
 		color: #004e7c;
 		padding:70px 20px 10px 20px;
-		font-family: 'Open Sans', sans-serif;
-		border-bottom: 1px solid #f2f2f2;
+		font-family: 'Arimo', sans-serif;
 	}
 	.navbar-nav>.active>a,.navbar-nav>.active>a:focus,.navbar-nav>.active>a:hover{
 		color: #fff;
 		background-color: #003657;
 		padding:70px 20px 10px 20px;
-		border-bottom: 1px solid #f2f2f2;
+	}
+	.nav>li>a:focus, .nav>li>a:hover{
+		background-color:#fff;
 	}
 	.navbar-nav>li>a:focus,.navbar-nav>li>a:hover{
 		color: #fff;
 		background-color: #003657;
+	}
+	.navbar-toggle:focus,.navbar-toggle:hover{
+		background: #fff;
 	}
 	.navbar-form{
 		.input-group>.form-control{
@@ -89,7 +91,7 @@
 			padding-left: 20px;
 			text-align: center;
 			font-weight: bold;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'Arimo', sans-serif;
 			span i{
 				margin-right: 5px;
 			}
@@ -97,21 +99,21 @@
 	}
 }
 /* end header */
-
 .slide-bar{
 	background: #004e7c;
 	h2 {
 	  font-size: 36px;
-	  font-family: 'Open Sans', sans-serif;
+	  font-family: 'SFUHelveticaBold', sans-serif;
 	  color: rgb( 255, 255, 255 );
 	  line-height: 0.5;
-	  text-align: justifyLeft;
-	  font-weight: bold;
 	  padding: 150px 0px 20px 0px;
+	}
+	.chu-dam{
+		font-weight: bold;
 	}
 	p {
 	  font-size: 14px;
-	  font-family: 'Open Sans', sans-serif;
+	  font-family: 'SFUHelveticaLight', sans-serif;
 	  color: rgb( 255, 255, 255 );
 	  line-height: 1.286;
 	  text-align: justifyLeft;
@@ -127,24 +129,35 @@
 	.main-top{
 		margin-top:60px;
 		margin-bottom: 10px;
+		width: 100%;
 		overflow: hidden;
 		.product{
-			position: relative;
+			margin-bottom: 5px;
 			h4{
 			  font-size: 76px;
-			  font-family: 'Open Sans', sans-serif;
+			  font-family: 'SFUHelveticaLight', sans-serif;
 			  color: rgb( 255, 255, 255 );
 			  text-transform: uppercase;
 			  line-height: 1.368;
-			  text-align: center;
 			  position: absolute;
-			  left: 27%;
-			  top: 30%;
+			  left: 25%;
+			  top: 25%;
 			  z-index: 47;
 			}
 			h4 span{
 				font-weight: bold;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelveticaLight', sans-serif;
+			}
+			.ten-anh{
+				font-size: 76px;
+				font-family: 'SFUHelveticaLight', sans-serif;
+				color: rgb( 255, 255, 255 );
+				text-transform: uppercase;
+				line-height: 1.368;
+				position: absolute;
+				left: 25%;
+				top: 35%;
+				z-index: 47;
 			}
 		}
 		.new-anh{
@@ -172,13 +185,13 @@
 	}
 	.tieu-de-center{
 		h2{
-			color: #004e7c;
+			font-size: 18px;
+			font-family: "Arimo";
+			color: rgb( 0, 78, 124 );
 			font-weight: bold;
 			text-transform: uppercase;
 			margin-top: 80px;
-			font-size: 18px;
-			margin-bottom: 5px;
-			font-family: 'Open Sans', sans-serif;
+			margin-bottom: 5px;		
 		}
 		hr{
 			width: 25px;
@@ -199,20 +212,28 @@
 				margin-bottom: 10px;
 			}
 			.cate-new{
+				font-family: "Arimo";
+				color: rgb( 64, 64, 64 );
 				font-weight: bold;
 				font-size: 14px;
 			}
 			h4{
+				font-size: 14px;
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 			}
 			.price{
 				font-size: 18px;
-				font-family: 'Open Sans', sans-serif;
-				color: rgb( 66, 66, 66 );
+				font-family: 'Arimo', sans-serif;
+				color: #424242;
 				font-weight: bold;
+			}
+			.p-del{
+				color: #424242;
+				font-size: 14px;
+				margin-left: 10px;
 			}
 			.new-anh{
 				position: relative;
@@ -233,7 +254,7 @@
 			}
 			.cart-xem{
 				position: absolute;
-				right: -25px;
+				right: -35px;
 				top: 110px;
 				z-index: 101;
 				display: none;
@@ -244,34 +265,36 @@
 				border:1px solid #fff;
 				text-decoration: none;
 				display: inline-block;
-				font-family: 'Open Sans', sans-serif;
+				font-size: 14px;
+				font-family: "Myriad Pro";
 				}
 				a:hover{
 					background:#ffffff;
 					color: #000;
 				}
 				.gio-hang{
-					padding: 10px;
+					padding: 7px;
 					float: left;
 					margin-right:10px;
 				}
 				.xem-them{
-					padding: 10px 45px;
-					font-family: 'Open Sans', sans-serif;
+					padding: 7px 40px;
+					font-family: 'Myriad Pro', sans-serif;
 					float: left;
 				}
 			}
 			.sale{
+				font-size: 14px;
 				background-color: #7c0000;
 				color: #fff;
-				font-weight: bold;
+				text-align: center;
 				position: absolute;
 				right: 5px;
 				top: 5px;
-				padding: 5px 10px;
+				padding: 3px 10px;
 				z-index: 102;
 				display: none;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Myriad Pro', sans-serif;
 			}
 		}
 		.new-product:hover{
@@ -295,7 +318,7 @@
 			margin-top: 80px;
 			margin-bottom: 5px;
 			font-size: 18px;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'Arimo', sans-serif;
 		}
 		hr{
 			width: 25px;
@@ -315,25 +338,26 @@
 			.cate-new-product{
 				font-weight: bold;
 				font-size: 14px;
+				font-family: 'Arimo', sans-serif;
 			}
 			h4{
+				font-size: 14px;
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 			}
 			.price-product{
 				font-size: 18px;
-				font-family: "Arial";
 				color: rgb( 66, 66, 66 );
 				font-weight: bold;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 			}
 			.del-product{
 				margin-left: 20px;
 				font-weight: thin;
 				font-size: 14px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 			}
 			.xem-product{
 				display: block;
@@ -342,51 +366,50 @@
 					color: #555;
 					border:1px solid #555;
 					text-decoration: none;
-					font-family: 'Open Sans', sans-serif;
+					font-family: 'Myriad Pro', sans-serif;
 				}
 				.gio-hang-product{
-					padding: 10px;
+					padding: 7px;
 				}
 				.xem-them-product{
-					padding: 10px 45px;
+					padding: 7px 40px;
 				}
 			}
 		}
 	}
 	.tin-tuc{
-		.tin-tuc-p{
-			padding: 10px 0px 20px 0px;
+		margin-bottom: 50px;
+	}
+	.tieu-de-center{
+		padding-bottom:20px;
+	}
+	.media{
+		padding-bottom:15px;
+	}
+	.media-body,.media-left{
+		background-color:#fff;
+	}
+	.media-body{
+		padding: 10px 10px 5px 20px;
+		h4{
+			font-size: 14px;
+			font-family: 'Arimo', sans-serif;
+			font-weight: bold;
+			color: #004e7c;
+			text-transform: uppercase;
 		}
-		.tin-tuc-product{
-			margin-bottom: 100px;
-			overflow: hidden;
-			.image-tintuc{
-				padding-left: 0px;
-				padding-right: 0;
-				img{
-					width: 100%;
-				}
-			}
-			.noidung-tintuc{
-				padding:10px 10px 17px 30px;
-				background-color:#fff;
-				h4{
-					margin: 0;
-					color: #004e7c;
-					text-transform:uppercase;
-					font-size: 18px;
-					font-weight: bold;
-					text-align: justify;
-					font-family: 'Open Sans', sans-serif;
-				}
-				p{
-					font-size: 14px;
-					margin-bottom: 0;
-					line-height: 20px;
-					text-align: justify;
-					font-family: 'Open Sans', sans-serif;
-				}
-			}
+		p{
+			font-size: 14px;
+			font-family: 'Arimo', sans-serif;
+			line-height: 1.286;
+			text-align: justifyLeft;
+		}
+		a{
+			font-size: 14px;
+			font-family: "Arimo";
+			color: rgb( 0, 78, 124 );
+			line-height: 1.286;
+			text-align: justifyLeft;
 		}
 	}
 }
@@ -413,7 +436,7 @@
 		margin-top: 20px;
 		margin-bottom: 5px;
 		font-size: 18px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'SFUHelvetica', sans-serif;
 		padding-left: 10px;
 	}
 	hr{
@@ -437,7 +460,7 @@
 			list-style-type: none;
 			padding-bottom:20px;
 			a{
-				font-size: 16px;
+				font-size: 14px;
 				text-transform: uppercase;
 			}
 		}
@@ -453,18 +476,26 @@
 			.cate-new{
 				font-weight: bold;
 				font-size: 14px;
+				font-family: 'Arimo', sans-serif;
 			}
 			h4{
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
+				font-size: 14px;
 			}
 			.price{
 				font-size: 18px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 				color: rgb( 66, 66, 66 );
 				font-weight: bold;
+				font-family: 'Arimo', sans-serif;
+			}
+			.del-price{
+				margin-left: 20px;
+				font-size: 14px;
+				font-family: 'Arimo', sans-serif;
 			}
 			.new-anh{
 				position: relative;
@@ -485,7 +516,7 @@
 			}
 			.cart-xem{
 				position: absolute;
-				right: -25px;
+				right: -35px;
 				top: 110px;
 				z-index: 101;
 				display: none;
@@ -496,34 +527,33 @@
 				border:1px solid #fff;
 				text-decoration: none;
 				display: inline-block;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 				}
 				a:hover{
 					background:#ffffff;
 					color: #000;
 				}
 				.gio-hang{
-					padding: 10px;
+					padding: 7px;
 					float: left;
 					margin-right:10px;
 				}
 				.xem-them{
-					padding: 10px 45px;
-					font-family: 'Open Sans', sans-serif;
+					padding: 7px 40px;
+					font-family: 'Arimo', sans-serif;
 					float: left;
 				}
 			}
 			.sale{
 				background-color: #7c0000;
 				color: #fff;
-				font-weight: bold;
 				position: absolute;
 				right: 5px;
 				top: 5px;
-				padding: 5px 10px;
+				padding: 3px 10px;
 				z-index: 102;
 				display: none;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'Arimo', sans-serif;
 			}
 		}
 		.new-product:hover{
@@ -541,7 +571,6 @@
 		/* phân trang */
 		.pagination>li>a, .pagination>li>span{
 			color: #747474;
-			font-weight: bold;
 			margin-left: 5px;
 		}
 		.pagination>li:first-child>a, .pagination>li:first-child>span{
@@ -560,7 +589,7 @@
 			margin-top: 30px;
 			h4{
 				font-size: 18px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 				color: rgb( 38, 38, 38 );
 				font-weight: bold;
 				text-transform: uppercase; 
@@ -570,20 +599,20 @@
 			}
 			.product-item-gia{
 				font-size: 18px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 				color: rgb( 0, 78, 124 );
 				font-weight: bold;
 				margin-right: 20px;
 			}
 			.product-item-del{
 				font-size: 14px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 				color: rgb( 38, 38, 38 );
 				text-decoration: line-through;
 			}
 			.thue-vat{
 				font-size: 12px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 				color: rgb( 118, 118, 118 );
 				font-style: italic;
 			}
@@ -640,7 +669,7 @@
 				margin-top: 0px;
 				.cart-xem{
 					position: absolute;
-					right: -10px;
+					right: -15px;
 					top: 80px;
 					z-index: 101;
 					display: block;
@@ -651,22 +680,26 @@
 					border:1px solid #fff;
 					text-decoration: none;
 					display: inline-block;
-					font-family: 'Open Sans', sans-serif;
+					font-family: 'Arimo', sans-serif;
 					}
 					a:hover{
 						background:#ffffff;
 						color: #000;
 					}
 					.gio-hang{
-						padding: 10px;
+						padding: 7px;
 						float: left;
 						margin-right:10px;
 					}
 					.xem-them{
-						padding: 10px 25px;
-						font-family: 'Open Sans', sans-serif;
+						padding: 7px 25px;
+						font-family: 'Arimo', sans-serif;
 						float: left;
 					}
+				}
+				.del-product-same{
+					margin-left: 10px;
+					font-family: 'Arimo', sans-serif;
 				}
 			}
 		}
@@ -691,6 +724,7 @@
 					font-size: 12px;
 					font-weight: bold;
 					color: #7b7b7b;
+					font-family: 'Arimo', sans-serif;
 				}
 				h4{
 					color: #7c0000;
@@ -699,17 +733,20 @@
 					font-weight: bold;
 					text-transform: uppercase;
 					margin-bottom: 0;
+					font-family: 'Arimo', sans-serif;
 				}
 				.price-product{
 					font-size: 14px;
 					color: rgb( 66, 66, 66 );
 					font-weight: bold;
+					font-family: 'Arimo', sans-serif;
 				}
 				.del-product{
 					font-size: 12px;
 					color: rgb( 66, 66, 66 );
 					text-decoration: line-through;
-					margin-left: 20px;
+					margin-left: 10px;
+					font-family: 'Arimo', sans-serif;
 				}
 			}
 		}
@@ -728,7 +765,7 @@ footer{
 			font-size: 16px;
 			font-weight: bold;
 			margin-bottom: 5px;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'SFUHelvetica', sans-serif;
 		}
 		hr{
 			width: 25px;
@@ -742,7 +779,7 @@ footer{
 			text-align: justify;
 			padding-bottom: 20px;
 			font-size: 12px;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'SFUHelvetica', sans-serif;
 		}
 		ul{
 			padding-left:0;
@@ -754,7 +791,7 @@ footer{
 		ul li a{
 			color: #fff;
 			font-size: 12px;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'SFUHelvetica', sans-serif;
 		}
 		.icon-footer a{
 			color:#fff;
@@ -770,7 +807,7 @@ footer{
 		.lienhe{
 			p{
 				padding-bottom: 0px;
-				font-family: 'Open Sans', sans-serif;
+				font-family: 'SFUHelvetica', sans-serif;
 			}
 			p i{
 				margin-right: 7px;
@@ -787,7 +824,7 @@ footer{
 			color: #fff;
 			display: block;
 			float: right;
-			font-family: 'Open Sans', sans-serif;
+			font-family: 'SFUHelvetica', sans-serif;
 			span{
 				font-weight: bold;
 			}

@@ -15,6 +15,10 @@
     padding: 15px;
   }
 
+  .slide-bar h2 {
+    padding: 20px 0px 10px 0px;
+  }
+
   .main .tieu-de-center h2 {
     margin-top: 30px;
   }
@@ -41,26 +45,33 @@
     padding: 5px;
   }
 
-  /* tin tß╗⌐c */
-  .main .tin-tuc .tin-tuc-product {
-    margin-bottom: 10px;
+  .media img {
+    width: 80px;
+    height: 80px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
-    padding: 2px;
+  .media .media-body {
+    padding: 5px 5px 0px 10px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
-    font-size: 9px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+  .media .media-body h4 {
     font-size: 8px;
-    line-height: 11px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #004e7c;
+    text-transform: uppercase;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
-    font-size: 8px;
+  .media .media-body p {
+    font-size: 7px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.286;
+    text-align: justifyLeft;
+    margin-bottom: 0;
+  }
+  .media .media-body a {
+    font-size: 7px;
+    font-family: "Arimo";
+    color: #004e7c;
+    line-height: 1.286;
+    text-align: justifyLeft;
   }
 
   .main-product .product-cate {
@@ -99,6 +110,10 @@
     padding: 15px;
   }
 
+  .slide-bar h2 {
+    padding: 20px 0px 10px 0px;
+  }
+
   .main .tieu-de-center h2 {
     margin-top: 30px;
   }
@@ -126,26 +141,33 @@
     padding: 5px;
   }
 
-  /* tin tß╗⌐c */
-  .main .tin-tuc .tin-tuc-product {
-    margin-bottom: 10px;
+  .media img {
+    width: 90px;
+    height: 90px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
-    padding: 2px;
+  .media .media-body {
+    padding: 5px 5px 0px 10px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
-    font-size: 10px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
+  .media .media-body h4 {
     font-size: 9px;
-    line-height: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #004e7c;
+    text-transform: uppercase;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+  .media .media-body p {
     font-size: 8px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.286;
+    text-align: justifyLeft;
+    margin-bottom: 0;
+  }
+  .media .media-body a {
+    font-size: 8px;
+    font-family: "Arimo";
+    color: #004e7c;
+    line-height: 1.286;
+    text-align: justifyLeft;
   }
 
   .main-product .product-cate {
@@ -177,6 +199,10 @@
     padding: 15px;
   }
 
+  .slide-bar h2 {
+    padding: 20px 0px 10px 0px;
+  }
+
   .main .tieu-de-center h2 {
     margin-top: 30px;
   }
@@ -204,26 +230,33 @@
     padding: 5px;
   }
 
-  /* tin tß╗⌐c */
-  .main .tin-tuc .tin-tuc-product {
-    margin-bottom: 10px;
+  .media img {
+    width: 100px;
+    height: 100px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
-    padding: 2px;
+  .media .media-body {
+    padding: 5px 5px 0px 10px;
   }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
-    font-size: 13px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
-    font-size: 11px;
-    line-height: 16px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
+  .media .media-body h4 {
     font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #004e7c;
+    text-transform: uppercase;
+  }
+  .media .media-body p {
+    font-size: 10px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.286;
+    text-align: justifyLeft;
+    margin-bottom: 0;
+  }
+  .media .media-body a {
+    font-size: 10px;
+    font-family: "Arimo";
+    color: #004e7c;
+    line-height: 1.286;
+    text-align: justifyLeft;
   }
 
   .main-product .product-cate {
@@ -247,6 +280,18 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main .main-top .product h4 {
+    left: 40px;
+    top: 50px;
+    font-size: 60px;
+  }
+
+  .main .main-top .product .ten-anh {
+    font-size: 60px;
+    left: 40px;
+    top: 80px;
+  }
+
   .navbar-default .cart a {
     padding-left: 0px;
     padding-right: 600px;
@@ -257,6 +302,10 @@
     right: 300px;
     width: 400px;
     left: auto;
+  }
+
+  .slide-bar h2 {
+    padding: 50px 0px 10px 0px;
   }
 
   .main .tieu-de-center h2 {
@@ -284,29 +333,6 @@
 
   .main .ban-product .san-pham .xem-product .xem-them-product {
     padding: 5px;
-  }
-
-  /* tin tß╗⌐c */
-  .main .tin-tuc .tin-tuc-product {
-    margin-bottom: 40px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
-    padding: 10px 10px 17px 30px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
-    font-size: 16px;
-    margin-bottom: 37px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
-    font-size: 16px;
   }
 
   .main-product .product-cate {
@@ -350,28 +376,6 @@
 
   .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .gio-hang {
     padding: 5px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1023px) {
-  /* tin tß╗⌐c */
-  .main .tin-tuc .tin-tuc-product {
-    margin-bottom: 40px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc {
-    padding: 2px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc h4 {
-    font-size: 14px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc p {
-    font-size: 12px;
-  }
-
-  .main .tin-tuc .tin-tuc-product .noidung-tintuc a {
-    font-size: 10px;
   }
 }
 
