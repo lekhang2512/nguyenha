@@ -166,6 +166,10 @@
 .main .main-top .new-anh {
   position: relative;
 }
+.main .main-top .new-anh img {
+  width: 100%;
+  height: auto;
+}
 .main .main-top .image-new {
   display: none;
   border-width: 1px;
