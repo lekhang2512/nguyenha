@@ -222,7 +222,7 @@
   font-family: "Arimo";
   color: #404040;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
 }
 .main .product-new .new-product h4 {
   font-size: 14px;
@@ -342,7 +342,7 @@
 }
 .main .ban-product .san-pham .cate-new-product {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Arimo', sans-serif;
 }
 .main .ban-product .san-pham h4 {
@@ -483,7 +483,7 @@
 }
 .main-product .product-cate .new-product .cate-new {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Arimo', sans-serif;
 }
 .main-product .product-cate .new-product h4 {
@@ -704,6 +704,12 @@
 .main-product .product-cate .sanpham-cung-loai .new-product h4 {
   margin: 2px 0px;
 }
+.main-product .product-cate .sanpham-cung-loai .new-product .cate-new {
+  font-size: 12px;
+  font-weight: bold;
+  color: #404040;
+  font-family: 'Arimo', sans-serif;
+}
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem {
   position: absolute;
   right: -15px;
@@ -758,7 +764,7 @@
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item .cate-new-product {
   font-size: 11px;
   font-weight: bold;
-  color: #7b7b7b;
+  color: #404040;
   font-family: 'Arimo', sans-serif;
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item h4 {

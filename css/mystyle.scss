@@ -222,7 +222,7 @@
 				font-family: "Arimo";
 				color: rgb( 64, 64, 64 );
 				font-weight: bold;
-				font-size: 14px;
+				font-size: 12px;
 			}
 			h4{
 				font-size: 14px;
@@ -344,7 +344,7 @@
 			display: block;
 			.cate-new-product{
 				font-weight: bold;
-				font-size: 14px;
+				font-size: 12px;
 				font-family: 'Arimo', sans-serif;
 			}
 			h4{
@@ -484,7 +484,7 @@
 			}
 			.cate-new{
 				font-weight: bold;
-				font-size: 14px;
+				font-size: 12px;
 				font-family: 'Arimo', sans-serif;
 			}
 			h4{
@@ -711,6 +711,12 @@
 				h4{
 					margin: 2px 0px;
 				}
+				.cate-new{
+					font-size: 12px;
+					font-weight: bold;
+					color: rgb( 64, 64, 64 );
+					font-family: 'Arimo', sans-serif;
+				}
 				.cart-xem{
 					position: absolute;
 					right: -15px;
@@ -767,7 +773,7 @@
 				.cate-new-product{
 					font-size: 11px;
 					font-weight: bold;
-					color: #7b7b7b;
+					color: rgb( 64, 64, 64 );
 					font-family: 'Arimo', sans-serif;
 				}
 				h4{
