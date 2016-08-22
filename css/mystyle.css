@@ -39,6 +39,9 @@
 .navbar-default .navbar-brand {
   padding: 10px 50px 90px 15px;
 }
+.navbar-default .form-search {
+  display: none;
+}
 .navbar-default .navbar-nav {
   margin-top: 0px;
 }
@@ -278,7 +281,7 @@
   color: #000;
 }
 .main .product-new .new-product .cart-xem .gio-hang {
-  padding: 7px;
+  padding: 7px 10px;
   float: left;
   margin-right: 10px;
 }
@@ -372,13 +375,16 @@
   font-family: 'Myriad Pro', sans-serif;
 }
 .main .ban-product .san-pham .xem-product .gio-hang-product {
-  padding: 7px;
+  padding: 7px 10px;
 }
 .main .ban-product .san-pham .xem-product .xem-them-product {
   padding: 7px 40px;
 }
 .main .tin-tuc {
   margin-bottom: 50px;
+}
+.main .tin-tuc .tin-tuc-p {
+  margin-top: 10px;
 }
 .main .media {
   padding-top: 20px;
@@ -388,27 +394,28 @@
   background-color: #fff;
 }
 .main .media-body {
-  padding: 10px 10px 5px 20px;
+  padding: 15px 13px 15px 27px;
 }
 .main .media-body h4 {
   font-size: 14px;
   font-family: 'Arimo', sans-serif;
   font-weight: bold;
   color: #004e7c;
+  text-align: justifyLeft;
   text-transform: uppercase;
 }
 .main .media-body p {
   font-size: 14px;
   font-family: 'Arimo', sans-serif;
-  line-height: 1.286;
-  text-align: justifyLeft;
+  line-height: 1.086;
+  text-align: justify;
 }
 .main .media-body a {
   font-size: 14px;
   font-family: "Arimo";
   color: #004e7c;
-  line-height: 1.286;
-  text-align: justifyLeft;
+  line-height: 1.086;
+  text-align: justify;
 }
 
 /* main-product */
@@ -457,7 +464,7 @@
 }
 .main-product .tieu-de-product ul li {
   list-style-type: none;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .main-product .tieu-de-product ul li a {
   font-size: 14px;
@@ -536,7 +543,7 @@
   color: #000;
 }
 .main-product .product-cate .new-product .cart-xem .gio-hang {
-  padding: 7px;
+  padding: 7px 10px;
   float: left;
   margin-right: 10px;
 }
@@ -568,21 +575,25 @@
 .main-product .product-cate .pagination > li > a, .main-product .product-cate .pagination > li > span {
   color: #747474;
   margin-left: 5px;
+  font-size: 12px;
 }
 .main-product .product-cate .pagination > li:first-child > a, .main-product .product-cate .pagination > li:first-child > span {
   margin-left: 0;
-  margin-right: 225px;
+  margin-right: 245px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 .main-product .product-cate .pagination > li:last-child > a, .main-product .product-cate .pagination > li:last-child > span {
   margin-left: 0;
-  margin-left: 225px;
+  margin-left: 245px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 .main-product .product-cate .product-item {
   margin-top: 30px;
+}
+.main-product .product-cate .product-item img {
+  height: 370px;
 }
 .main-product .product-cate .product-item h4 {
   font-size: 18px;
@@ -593,6 +604,9 @@
 }
 .main-product .product-cate .product-item p {
   margin-bottom: 5px;
+}
+.main-product .product-cate .product-item .gia-product-item {
+  margin-bottom: 0px;
 }
 .main-product .product-cate .product-item .product-item-gia {
   font-size: 18px;
@@ -612,6 +626,7 @@
   font-family: 'SFUHelvetica', sans-serif;
   color: #767676;
   font-style: italic;
+  margin-bottom: 20px;
 }
 .main-product .product-cate .product-item .product-qty {
   border-width: 1px;
@@ -627,29 +642,33 @@
   background-color: #e0e0e0;
   width: 371px;
   height: 2px;
-  margin: 30px 0 30px 0;
+  margin: 18px 0 15px 0;
 }
 .main-product .product-cate .product-item .product-lien-he {
   display: block;
   float: left;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
+}
+.main-product .product-cate .product-item .product-lien-he span {
+  display: block;
+  margin-bottom: 10px;
 }
 .main-product .product-cate .product-item .product-tu-van {
   display: block;
   float: left;
   margin-left: 38px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .main-product .product-cate .product-item .product-gio-hang {
   border: 1px solid #404040;
   color: #404040;
-  padding: 5px 50px;
+  padding: 7px 50px;
   background-color: #f2f2f2;
-  margin-bottom: 10px;
+  margin: 10px 10px 10px 0;
 }
 .main-product .product-cate .product-item .product-mua-ngay {
   color: #fff;
-  padding: 6px 49px;
+  padding: 8px 49px;
   background-color: #004e7c;
   border: 0;
 }
@@ -662,6 +681,9 @@
 }
 .main-product .product-cate .sanpham-cung-loai .new-product {
   margin-top: 0px;
+}
+.main-product .product-cate .sanpham-cung-loai .new-product h4 {
+  margin: 2px 2px;
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem {
   position: absolute;
@@ -684,7 +706,7 @@
   color: #000;
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .gio-hang {
-  padding: 7px;
+  padding: 7px 10px;
   float: left;
   margin-right: 10px;
 }
@@ -715,18 +737,17 @@
   margin-left: 10px;
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item .cate-new-product {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   color: #7b7b7b;
   font-family: 'Arimo', sans-serif;
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item h4 {
   color: #7c0000;
-  margin: 5px 0;
-  font-size: 14px;
+  margin: 5px 10px 0 0;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 0;
   font-family: 'Arimo', sans-serif;
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item .price-product {

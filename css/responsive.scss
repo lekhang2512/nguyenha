@@ -55,6 +55,16 @@ $res_1200 : "only screen and (min-width: 1200px)";
             }
         }
     }
+    .navbar-default .form-search{
+        display: block;
+    }
+    .navbar-default .navbar-form{
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        border-color: #fff;
+    }
     .navbar-default .navbar-nav > li > a {
         padding: 15px;
     }
@@ -66,7 +76,9 @@ $res_1200 : "only screen and (min-width: 1200px)";
             padding: 20px 0px 10px 0px;
         }
     }
-
+    .main .main-top .product{
+        margin-bottom: 0;
+    }
     .main .tieu-de-center h2{
         margin-top: 30px;
     }
@@ -156,6 +168,16 @@ $res_1200 : "only screen and (min-width: 1200px)";
             }
         }
     }
+    .navbar-default .form-search{
+        display: block;
+    }
+    .navbar-default .navbar-form{
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        border-color: #fff;
+    }
     .navbar-default .navbar-nav > li > a {
         padding: 15px;
     }
@@ -168,7 +190,9 @@ $res_1200 : "only screen and (min-width: 1200px)";
             padding: 20px 0px 10px 0px;
         }
     }
-
+    .main .main-top .product{
+        margin-bottom: 0;
+    }
     .main .tieu-de-center h2{
         margin-top: 30px;
     }
@@ -246,6 +270,16 @@ $res_1200 : "only screen and (min-width: 1200px)";
 }
 
 @include responsive_425{
+    .navbar-default .form-search{
+        display: block;
+    }
+    .navbar-default .navbar-form{
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        border-color: #fff;
+    }
     .navbar-default .navbar-nav > li > a {
         padding: 15px;
     }
@@ -259,9 +293,9 @@ $res_1200 : "only screen and (min-width: 1200px)";
         }
     }
 
-    .main .main-top{
+    .main .main-top .product{
+        margin-bottom: 0;
     }
-        
     .main .tieu-de-center h2{
         margin-top: 30px;
     }
@@ -316,6 +350,35 @@ $res_1200 : "only screen and (min-width: 1200px)";
     }
 
     .main-product{
+        .san-pham-tuong-tu .product-tuong-tu .san-pham-item{
+                .cate-new-product{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #7b7b7b;
+                    font-family: 'Arimo', sans-serif;
+                }
+                h4{
+                    color: #7c0000;
+                    margin: 15px 10px 15px 0;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-family: 'Arimo', sans-serif;
+                }
+                .price-product{
+                    font-size: 18px;
+                    color: rgb( 66, 66, 66 );
+                    font-weight: bold;
+                    font-family: 'Arimo', sans-serif;
+                }
+                .del-product{
+                    font-size: 14px;
+                    color: rgb( 66, 66, 66 );
+                    text-decoration: line-through;
+                    margin-left: 10px;
+                    font-family: 'Arimo', sans-serif;
+                }
+        }
         .product-cate{
             /* phân trang */
             .pagination>li>a, .pagination>li>span{
@@ -409,13 +472,9 @@ $res_1200 : "only screen and (min-width: 1200px)";
             }
         }
     }
-    .main .product-new .new-product:hover .cart-xem{
-        top:90px;
-        right: -17px;
-    }
     .main-product .product-cate .new-product:hover .cart-xem{
-        top:90px;
-        right: -7px;
+        top: 90px;
+        right: -16px;
     }
     .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem{
         top:70px;
@@ -425,7 +484,7 @@ $res_1200 : "only screen and (min-width: 1200px)";
         padding: 5px 13px;
     }
     .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .gio-hang{
-        padding: 5px;
+        padding: 5px 7px;
     }
 }
 
