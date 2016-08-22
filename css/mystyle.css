@@ -597,7 +597,7 @@
 }
 .main-product .product-cate .product-item h4 {
   font-size: 18px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo', sans-serif;
   color: #262626;
   font-weight: bold;
   text-transform: uppercase;
@@ -610,14 +610,14 @@
 }
 .main-product .product-cate .product-item .product-item-gia {
   font-size: 18px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo', sans-serif;
   color: #004e7c;
   font-weight: bold;
   margin-right: 20px;
 }
 .main-product .product-cate .product-item .product-item-del {
   font-size: 14px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo', sans-serif;
   color: #262626;
   text-decoration: line-through;
 }
