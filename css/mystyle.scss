@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Arimo-Bold;
+    src: url('../fonts/Arimo-Bold.ttf') format('truetype');
+}
 .header-top{
 	background:#004e7c;
 	.top-icon a{
@@ -18,7 +22,7 @@
 		font-size: 14px;
 		display: inline-block;
 		padding: 10px 40px 10px 10px;
-		font-family: 'Arimo', sans-serif;
+		font-family: 'Arimo';
 		i{
 			margin-right: 10px;
 		}
@@ -45,7 +49,7 @@
 	.navbar-nav>li>a{
 		color: #004e7c;
 		padding:70px 20px 10px 20px;
-		font-family: 'Arimo', sans-serif;
+		font-family: 'Arimo';
 	}
 	.navbar-nav>.active>a,.navbar-nav>.active>a:focus,.navbar-nav>.active>a:hover{
 		color: #fff;
@@ -94,7 +98,7 @@
 			padding-left: 20px;
 			text-align: center;
 			font-weight: bold;
-			font-family: 'Arimo', sans-serif;
+			font-family: 'Arimo-Bold';
 			span i{
 				margin-right: 5px;
 			}
@@ -106,7 +110,7 @@
 	background: #004e7c;
 	h2 {
 	  font-size: 36px;
-	  font-family: 'SFUHelveticaBold', sans-serif;
+	  font-family: 'Arimo';
 	  color: rgb( 255, 255, 255 );
 	  line-height: 0.5;
 	  padding: 150px 0px 20px 0px;
@@ -116,7 +120,7 @@
 	}
 	p {
 	  font-size: 14px;
-	  font-family: 'SFUHelveticaLight', sans-serif;
+	  font-family: 'Arimo';
 	  color: rgb( 255, 255, 255 );
 	  line-height: 1.286;
 	  text-align: justifyLeft;
@@ -138,7 +142,7 @@
 			margin-bottom: 5px;
 			h4{
 			  font-size: 76px;
-			  font-family: 'SFUHelveticaLight', sans-serif;
+			  font-family: 'Arimo';
 			  color: rgb( 255, 255, 255 );
 			  text-transform: uppercase;
 			  line-height: 1.368;
@@ -149,11 +153,11 @@
 			}
 			h4 span{
 				font-weight: bold;
-				font-family: 'SFUHelveticaLight', sans-serif;
+				font-family: 'Arimo-Bold';
 			}
 			.ten-anh{
 				font-size: 76px;
-				font-family: 'SFUHelveticaLight', sans-serif;
+				font-family: 'Arimo-Bold';
 				color: rgb( 255, 255, 255 );
 				text-transform: uppercase;
 				line-height: 1.368;
@@ -193,7 +197,7 @@
 	.tieu-de-center{
 		h2{
 			font-size: 18px;
-			font-family: "Arimo";
+			font-family: "Arimo-Bold";
 			color: rgb( 0, 78, 124 );
 			font-weight: bold;
 			text-transform: uppercase;
@@ -219,7 +223,7 @@
 				margin-bottom: 10px;
 			}
 			.cate-new{
-				font-family: "Arimo";
+				font-family: "Arimo-Bold";
 				color: rgb( 64, 64, 64 );
 				font-weight: bold;
 				font-size: 12px;
@@ -229,11 +233,11 @@
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Arimo', sans-serif;
+				font-family: 'Arimo-Bold';
 			}
 			.price{
 				font-size: 18px;
-				font-family: 'Arimo', sans-serif;
+				font-family: 'Arimo-Bold';
 				color: #424242;
 				font-weight: bold;
 			}
@@ -241,6 +245,7 @@
 				color: #424242;
 				font-size: 14px;
 				margin-left: 10px;
+				font-family: 'Arimo';
 			}
 			.new-anh{
 				position: relative;
@@ -273,7 +278,7 @@
 				text-decoration: none;
 				display: inline-block;
 				font-size: 14px;
-				font-family: "Myriad Pro";
+				font-family: "Arimo";
 				}
 				a:hover{
 					background:#ffffff;
@@ -286,7 +291,7 @@
 				}
 				.xem-them{
 					padding: 7px 40px;
-					font-family: 'Myriad Pro', sans-serif;
+					font-family: 'Arimo';
 					float: left;
 				}
 			}
@@ -301,7 +306,7 @@
 				padding: 3px 10px;
 				z-index: 102;
 				display: none;
-				font-family: 'Myriad Pro', sans-serif;
+				font-family: 'Arimo';
 			}
 		}
 		.new-product:hover{
@@ -325,7 +330,7 @@
 			margin-top: 80px;
 			margin-bottom: 5px;
 			font-size: 18px;
-			font-family: 'Arimo', sans-serif;
+			font-family: "Arimo-Bold";
 		}
 		hr{
 			width: 25px;
@@ -345,26 +350,26 @@
 			.cate-new-product{
 				font-weight: bold;
 				font-size: 12px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 			}
 			h4{
 				font-size: 14px;
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 			}
 			.price-product{
 				font-size: 18px;
 				color: rgb( 66, 66, 66 );
 				font-weight: bold;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 			}
 			.del-product{
 				margin-left: 20px;
 				font-weight: thin;
 				font-size: 14px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 			}
 			.xem-product{
 				display: block;
@@ -373,7 +378,7 @@
 					color: #555;
 					border:1px solid #555;
 					text-decoration: none;
-					font-family: 'Myriad Pro', sans-serif;
+					font-family: 'Arimo';
 				}
 				.gio-hang-product{
 					padding: 7px 10px;;
@@ -401,7 +406,7 @@
 		padding: 15px 13px 15px 27px;
 		h4{
 			font-size: 14px;
-			font-family: 'Arimo', sans-serif;
+			font-family: "Arimo-Bold";
 			font-weight: bold;
 			color: #004e7c;
 			text-align: justifyLeft;
@@ -409,7 +414,7 @@
 		}
 		p{
 			font-size: 14px;
-			font-family: 'Arimo', sans-serif;
+			font-family: "Arimo";
 			line-height: 1.086;
 			text-align: justify;
 		}
@@ -445,7 +450,7 @@
 		margin-top: 20px;
 		margin-bottom: 5px;
 		font-size: 18px;
-		font-family: 'SFUHelvetica', sans-serif;
+		font-family: "Arimo-Bold";
 		padding-left: 10px;
 	}
 	hr{
@@ -485,25 +490,25 @@
 			.cate-new{
 				font-weight: bold;
 				font-size: 12px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 			}
 			h4{
 				color: #7c0000;
 				font-weight: bold;
 				text-transform: uppercase;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 				font-size: 14px;
 			}
 			.price{
 				font-size: 18px;
 				color: rgb( 66, 66, 66 );
 				font-weight: bold;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 			}
 			.del-price{
 				margin-left: 20px;
 				font-size: 14px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 			}
 			.new-anh{
 				position: relative;
@@ -535,7 +540,7 @@
 				border:1px solid #fff;
 				text-decoration: none;
 				display: inline-block;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 				}
 				a:hover{
 					background:#ffffff;
@@ -548,7 +553,7 @@
 				}
 				.xem-them{
 					padding: 7px 40px;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 					float: left;
 				}
 			}
@@ -561,7 +566,7 @@
 				padding: 3px 10px;
 				z-index: 102;
 				display: none;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 			}
 		}
 		.new-product:hover{
@@ -601,7 +606,7 @@
 			}
 			h4{
 				font-size: 18px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 				color: rgb( 38, 38, 38 );
 				font-weight: bold;
 				text-transform: uppercase; 
@@ -614,20 +619,20 @@
 			}
 			.product-item-gia{
 				font-size: 18px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo-Bold";
 				color: rgb( 0, 78, 124 );
 				font-weight: bold;
 				margin-right: 20px;
 			}
 			.product-item-del{
 				font-size: 14px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 				color: rgb( 38, 38, 38 );
 				text-decoration: line-through;
 			}
 			.thue-vat{
 				font-size: 12px;
-				font-family: 'Arimo', sans-serif;
+				font-family: "Arimo";
 				color: rgb( 118, 118, 118 );
 				font-style: italic;
 				margin-bottom: 20px;
@@ -658,7 +663,7 @@
 					display: block;
 					margin-bottom: 10px;
 					font-size: 14px;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 					color: rgb( 38, 38, 38 );
 					i{
 						margin-right: 5px;
@@ -677,7 +682,7 @@
 					display: block;
 					margin-bottom: 10px;
 					font-size: 14px;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 					color: rgb( 38, 38, 38 );
 					i{
 						margin-right: 5px;
@@ -715,7 +720,7 @@
 					font-size: 12px;
 					font-weight: bold;
 					color: rgb( 64, 64, 64 );
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo-Bold";
 				}
 				.cart-xem{
 					position: absolute;
@@ -730,7 +735,7 @@
 					border:1px solid #fff;
 					text-decoration: none;
 					display: inline-block;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 					}
 					a:hover{
 						background:#ffffff;
@@ -743,13 +748,13 @@
 					}
 					.xem-them{
 						padding: 7px 25px;
-						font-family: 'Arimo', sans-serif;
+						font-family: "Arimo";
 						float: left;
 					}
 				}
 				.del-product-same{
 					margin-left: 10px;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 				}
 			}
 		}
@@ -774,7 +779,7 @@
 					font-size: 11px;
 					font-weight: bold;
 					color: rgb( 64, 64, 64 );
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo-Bold";
 				}
 				h4{
 					color: #7c0000;
@@ -782,20 +787,20 @@
 					font-size: 12px;
 					font-weight: bold;
 					text-transform: uppercase;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo-Bold";
 				}
 				.price-product{
 					font-size: 14px;
 					color: rgb( 66, 66, 66 );
 					font-weight: bold;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo-Bold";
 				}
 				.del-product{
 					font-size: 12px;
 					color: rgb( 66, 66, 66 );
 					text-decoration: line-through;
 					margin-left: 10px;
-					font-family: 'Arimo', sans-serif;
+					font-family: "Arimo";
 				}
 			}
 		}
@@ -814,7 +819,7 @@ footer{
 			font-size: 16px;
 			font-weight: bold;
 			margin-bottom: 5px;
-			font-family: 'SFUHelvetica', sans-serif;
+			font-family: 'Arimo';
 		}
 		hr{
 			width: 25px;
@@ -828,7 +833,7 @@ footer{
 			text-align: justify;
 			padding-bottom: 20px;
 			font-size: 12px;
-			font-family: 'SFUHelvetica', sans-serif;
+			font-family: 'Arimo';
 		}
 		ul{
 			padding-left:0;
@@ -840,7 +845,7 @@ footer{
 		ul li a{
 			color: #fff;
 			font-size: 12px;
-			font-family: 'SFUHelvetica', sans-serif;
+			font-family: 'Arimo';
 		}
 		.icon-footer a{
 			color:#fff;
@@ -856,7 +861,7 @@ footer{
 		.lienhe{
 			p{
 				padding-bottom: 0px;
-				font-family: 'SFUHelvetica', sans-serif;
+				font-family: 'Arimo';
 			}
 			p i{
 				margin-right: 7px;
@@ -873,7 +878,7 @@ footer{
 			color: #fff;
 			display: block;
 			float: right;
-			font-family: 'SFUHelvetica', sans-serif;
+			font-family: 'Arimo';
 			span{
 				font-weight: bold;
 			}

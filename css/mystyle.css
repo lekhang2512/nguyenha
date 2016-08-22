@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: Arimo-Bold;
+  src: url("../fonts/Arimo-Bold.ttf") format("truetype");
+}
 .header-top {
   background: #004e7c;
 }
@@ -20,7 +24,7 @@
   font-size: 14px;
   display: inline-block;
   padding: 10px 40px 10px 10px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo';
 }
 .header-top .login a i {
   margin-right: 10px;
@@ -48,7 +52,7 @@
 .navbar-default .navbar-nav > li > a {
   color: #004e7c;
   padding: 70px 20px 10px 20px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo';
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   color: #fff;
@@ -96,7 +100,7 @@
   padding-left: 20px;
   text-align: center;
   font-weight: bold;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo-Bold';
 }
 .navbar-default .cart a span i {
   margin-right: 5px;
@@ -108,7 +112,7 @@
 }
 .slide-bar h2 {
   font-size: 36px;
-  font-family: 'SFUHelveticaBold', sans-serif;
+  font-family: 'Arimo';
   color: white;
   line-height: 0.5;
   padding: 150px 0px 20px 0px;
@@ -118,7 +122,7 @@
 }
 .slide-bar p {
   font-size: 14px;
-  font-family: 'SFUHelveticaLight', sans-serif;
+  font-family: 'Arimo';
   color: white;
   line-height: 1.286;
   text-align: justifyLeft;
@@ -142,7 +146,7 @@
 }
 .main .main-top .product h4 {
   font-size: 76px;
-  font-family: 'SFUHelveticaLight', sans-serif;
+  font-family: 'Arimo';
   color: white;
   text-transform: uppercase;
   line-height: 1.368;
@@ -153,11 +157,11 @@
 }
 .main .main-top .product h4 span {
   font-weight: bold;
-  font-family: 'SFUHelveticaLight', sans-serif;
+  font-family: 'Arimo-Bold';
 }
 .main .main-top .product .ten-anh {
   font-size: 76px;
-  font-family: 'SFUHelveticaLight', sans-serif;
+  font-family: 'Arimo-Bold';
   color: white;
   text-transform: uppercase;
   line-height: 1.368;
@@ -192,7 +196,7 @@
 }
 .main .tieu-de-center h2 {
   font-size: 18px;
-  font-family: "Arimo";
+  font-family: "Arimo-Bold";
   color: #004e7c;
   font-weight: bold;
   text-transform: uppercase;
@@ -219,7 +223,7 @@
   margin-bottom: 10px;
 }
 .main .product-new .new-product .cate-new {
-  font-family: "Arimo";
+  font-family: "Arimo-Bold";
   color: #404040;
   font-weight: bold;
   font-size: 12px;
@@ -229,11 +233,11 @@
   color: #7c0000;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo-Bold';
 }
 .main .product-new .new-product .price {
   font-size: 18px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo-Bold';
   color: #424242;
   font-weight: bold;
 }
@@ -241,6 +245,7 @@
   color: #424242;
   font-size: 14px;
   margin-left: 10px;
+  font-family: 'Arimo';
 }
 .main .product-new .new-product .new-anh {
   position: relative;
@@ -274,7 +279,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  font-family: "Myriad Pro";
+  font-family: "Arimo";
 }
 .main .product-new .new-product .cart-xem a:hover {
   background: #ffffff;
@@ -287,7 +292,7 @@
 }
 .main .product-new .new-product .cart-xem .xem-them {
   padding: 7px 40px;
-  font-family: 'Myriad Pro', sans-serif;
+  font-family: 'Arimo';
   float: left;
 }
 .main .product-new .new-product .sale {
@@ -301,7 +306,7 @@
   padding: 3px 10px;
   z-index: 102;
   display: none;
-  font-family: 'Myriad Pro', sans-serif;
+  font-family: 'Arimo';
 }
 .main .product-new .new-product:hover .image-new {
   display: block;
@@ -322,7 +327,7 @@
   margin-top: 80px;
   margin-bottom: 5px;
   font-size: 18px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main .tieu-de hr {
   width: 25px;
@@ -343,26 +348,26 @@
 .main .ban-product .san-pham .cate-new-product {
   font-weight: bold;
   font-size: 12px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main .ban-product .san-pham h4 {
   font-size: 14px;
   color: #7c0000;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main .ban-product .san-pham .price-product {
   font-size: 18px;
   color: #424242;
   font-weight: bold;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main .ban-product .san-pham .del-product {
   margin-left: 20px;
   font-weight: thin;
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main .ban-product .san-pham .xem-product {
   display: block;
@@ -372,7 +377,7 @@
   color: #555;
   border: 1px solid #555;
   text-decoration: none;
-  font-family: 'Myriad Pro', sans-serif;
+  font-family: 'Arimo';
 }
 .main .ban-product .san-pham .xem-product .gio-hang-product {
   padding: 7px 10px;
@@ -398,7 +403,7 @@
 }
 .main .media-body h4 {
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
   font-weight: bold;
   color: #004e7c;
   text-align: justifyLeft;
@@ -406,7 +411,7 @@
 }
 .main .media-body p {
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   line-height: 1.086;
   text-align: justify;
 }
@@ -441,7 +446,7 @@
   margin-top: 20px;
   margin-bottom: 5px;
   font-size: 18px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: "Arimo-Bold";
   padding-left: 10px;
 }
 .main-product hr {
@@ -484,25 +489,25 @@
 .main-product .product-cate .new-product .cate-new {
   font-weight: bold;
   font-size: 12px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .product-cate .new-product h4 {
   color: #7c0000;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
   font-size: 14px;
 }
 .main-product .product-cate .new-product .price {
   font-size: 18px;
   color: #424242;
   font-weight: bold;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .product-cate .new-product .del-price {
   margin-left: 20px;
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main-product .product-cate .new-product .new-anh {
   position: relative;
@@ -535,7 +540,7 @@
   border: 1px solid #fff;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main-product .product-cate .new-product .cart-xem a:hover {
   background: #ffffff;
@@ -548,7 +553,7 @@
 }
 .main-product .product-cate .new-product .cart-xem .xem-them {
   padding: 7px 40px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   float: left;
 }
 .main-product .product-cate .new-product .sale {
@@ -560,7 +565,7 @@
   padding: 3px 10px;
   z-index: 102;
   display: none;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main-product .product-cate .new-product:hover .image-new {
   display: block;
@@ -596,7 +601,7 @@
 }
 .main-product .product-cate .product-item h4 {
   font-size: 18px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
   color: #262626;
   font-weight: bold;
   text-transform: uppercase;
@@ -609,20 +614,20 @@
 }
 .main-product .product-cate .product-item .product-item-gia {
   font-size: 18px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
   color: #004e7c;
   font-weight: bold;
   margin-right: 20px;
 }
 .main-product .product-cate .product-item .product-item-del {
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   color: #262626;
   text-decoration: line-through;
 }
 .main-product .product-cate .product-item .thue-vat {
   font-size: 12px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   color: #767676;
   font-style: italic;
   margin-bottom: 20px;
@@ -653,7 +658,7 @@
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   color: #262626;
 }
 .main-product .product-cate .product-item .product-lien-he span i {
@@ -672,7 +677,7 @@
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   color: #262626;
 }
 .main-product .product-cate .product-item .product-tu-van span i {
@@ -708,7 +713,7 @@
   font-size: 12px;
   font-weight: bold;
   color: #404040;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem {
   position: absolute;
@@ -724,7 +729,7 @@
   border: 1px solid #fff;
   text-decoration: none;
   display: inline-block;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem a:hover {
   background: #ffffff;
@@ -737,12 +742,12 @@
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .xem-them {
   padding: 7px 25px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
   float: left;
 }
 .main-product .product-cate .sanpham-cung-loai .new-product .del-product-same {
   margin-left: 10px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 .main-product .san-pham-tuong-tu {
   background-color: #fff;
@@ -765,7 +770,7 @@
   font-size: 11px;
   font-weight: bold;
   color: #404040;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item h4 {
   color: #7c0000;
@@ -773,20 +778,20 @@
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item .price-product {
   font-size: 14px;
   color: #424242;
   font-weight: bold;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo-Bold";
 }
 .main-product .san-pham-tuong-tu .product-tuong-tu .san-pham-item .del-product {
   font-size: 12px;
   color: #424242;
   text-decoration: line-through;
   margin-left: 10px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo";
 }
 
 footer {
@@ -803,7 +808,7 @@ footer .footer-top h2 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 5px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo';
 }
 footer .footer-top hr {
   width: 25px;
@@ -817,7 +822,7 @@ footer .footer-top p {
   text-align: justify;
   padding-bottom: 20px;
   font-size: 12px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo';
 }
 footer .footer-top ul {
   padding-left: 0;
@@ -829,7 +834,7 @@ footer .footer-top ul li {
 footer .footer-top ul li a {
   color: #fff;
   font-size: 12px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo';
 }
 footer .footer-top .icon-footer a {
   color: #fff;
@@ -842,7 +847,7 @@ footer .footer-top .icon-footer .facebook {
 }
 footer .footer-top .lienhe p {
   padding-bottom: 0px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo';
 }
 footer .footer-top .lienhe p i {
   margin-right: 7px;
@@ -858,7 +863,7 @@ footer .footer-bottom a {
   color: #fff;
   display: block;
   float: right;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo';
 }
 footer .footer-bottom a span {
   font-weight: bold;
