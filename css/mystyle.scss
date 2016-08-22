@@ -660,6 +660,12 @@
 					font-size: 14px;
 					font-family: 'Arimo', sans-serif;
 					color: rgb( 38, 38, 38 );
+					i{
+						margin-right: 5px;
+					}
+					.fa-mobile{
+						margin-right: 10px;
+					}
 				}
 			}
 			.product-tu-van{
@@ -667,6 +673,16 @@
 				float: left;
 				margin-left: 38px;
 				padding-bottom:15px;
+				span{
+					display: block;
+					margin-bottom: 10px;
+					font-size: 14px;
+					font-family: 'Arimo', sans-serif;
+					color: rgb( 38, 38, 38 );
+					i{
+						margin-right: 5px;
+					}
+				}
 			}
 			.product-gio-hang{
 				border :1px solid #404040;

@@ -656,11 +656,27 @@
   font-family: 'Arimo', sans-serif;
   color: #262626;
 }
+.main-product .product-cate .product-item .product-lien-he span i {
+  margin-right: 5px;
+}
+.main-product .product-cate .product-item .product-lien-he span .fa-mobile {
+  margin-right: 10px;
+}
 .main-product .product-cate .product-item .product-tu-van {
   display: block;
   float: left;
   margin-left: 38px;
   padding-bottom: 15px;
+}
+.main-product .product-cate .product-item .product-tu-van span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Arimo', sans-serif;
+  color: #262626;
+}
+.main-product .product-cate .product-item .product-tu-van span i {
+  margin-right: 5px;
 }
 .main-product .product-cate .product-item .product-gio-hang {
   border: 1px solid #404040;
