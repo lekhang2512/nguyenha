@@ -153,6 +153,13 @@ $res_1200 : "only screen and (min-width: 1200px)";
         }
     }
 
+    footer .footer-top ul li {
+        list-style-type: none;
+        margin-bottom: 5px;
+        display: inline-block;
+        padding-right: 5px;
+    }
+
 }
 
 @include responsive_375{
@@ -266,6 +273,12 @@ $res_1200 : "only screen and (min-width: 1200px)";
                 border-bottom-right-radius: 0;
             }
         }
+    }
+    footer .footer-top ul li {
+        list-style-type: none;
+        margin-bottom: 5px;
+        display: inline-block;
+        padding-right: 15px;
     }
 }
 
@@ -399,6 +412,12 @@ $res_1200 : "only screen and (min-width: 1200px)";
             }
         }
     }
+    footer .footer-top ul li {
+        list-style-type: none;
+        margin-bottom: 5px;
+        display: inline-block;
+        padding-right: 25px;
+    }
 }
 
 @include responsive_768{
@@ -485,6 +504,9 @@ $res_1200 : "only screen and (min-width: 1200px)";
     }
     .main-product .product-cate .sanpham-cung-loai .new-product .cart-xem .gio-hang{
         padding: 5px 7px;
+    }
+    footer .footer-top p{
+        padding-bottom:0px;
     }
 }
 
