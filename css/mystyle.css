@@ -495,7 +495,6 @@
 }
 .main-product .product-cate .new-product .price {
   font-size: 18px;
-  font-family: 'SFUHelvetica', sans-serif;
   color: #424242;
   font-weight: bold;
   font-family: 'Arimo', sans-serif;
@@ -623,7 +622,7 @@
 }
 .main-product .product-cate .product-item .thue-vat {
   font-size: 12px;
-  font-family: 'SFUHelvetica', sans-serif;
+  font-family: 'Arimo', sans-serif;
   color: #767676;
   font-style: italic;
   margin-bottom: 20px;
