@@ -641,6 +641,7 @@
 				height: 33px;
 				text-align: right;
 				display: block;
+				padding-right:15px;
 			}
 			hr{
 				background-color: rgb( 224, 224, 224 );
@@ -648,6 +649,7 @@
 				height: 2px;
 				margin: 18px 0 15px 0;
 			}
+
 			.product-lien-he{
 				display: block;
 				float: left;
@@ -655,6 +657,9 @@
 				span{
 					display: block;
 					margin-bottom: 10px;
+					font-size: 14px;
+					font-family: 'Arimo', sans-serif;
+					color: rgb( 38, 38, 38 );
 				}
 			}
 			.product-tu-van{

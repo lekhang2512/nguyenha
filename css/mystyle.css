@@ -636,6 +636,7 @@
   height: 33px;
   text-align: right;
   display: block;
+  padding-right: 15px;
 }
 .main-product .product-cate .product-item hr {
   background-color: #e0e0e0;
@@ -651,6 +652,9 @@
 .main-product .product-cate .product-item .product-lien-he span {
   display: block;
   margin-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Arimo', sans-serif;
+  color: #262626;
 }
 .main-product .product-cate .product-item .product-tu-van {
   display: block;
