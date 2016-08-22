@@ -727,7 +727,7 @@
 					right: -15px;
 					top: 80px;
 					z-index: 101;
-					display: block;
+					display: none;
 					width: 100%;
 					height:100%;
 					a{
@@ -755,6 +755,11 @@
 				.del-product-same{
 					margin-left: 10px;
 					font-family: "Arimo";
+				}
+			}
+			.new-product:hover{
+				.cart-xem{
+					display: block;
 				}
 			}
 		}
